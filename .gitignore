@@ -1,0 +1,18 @@
+node_modules/
+.webpack/
+.idea/
+npm-debug.log
+
+# Serverless' packaging artifacts
+.serverless
+
+# Don't put user's own dev stage config file in VC
+.config.dev.yml
+
+# Don't put environment secret values in VC
+.env
+.env.*
+.env
+
+# Emacs dir locals
+.dir-locals.el
